@@ -1,4 +1,4 @@
 [workspace]
 resolver = "2"
 members = ["xtask"]
-exclude = ["esp-riscv-rt", "examples"]
+exclude = ["examples"]
