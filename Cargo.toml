@@ -1,4 +1,4 @@
 [workspace]
 resolver = "2"
 members = ["xtask"]
-exclude = ["esp-metadata", "esp-riscv-rt", "examples", "hil-test"]
+exclude = ["esp-metadata", "esp-riscv-rt", "examples"]
