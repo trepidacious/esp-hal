@@ -1,15 +1,4 @@
 [workspace]
 resolver = "2"
 members = ["xtask"]
-exclude = [
-    "esp-build",
-    "esp-hal-procmacros",
-    "esp-lp-hal",
-    "esp-metadata",
-    "esp-riscv-rt",
-    "examples",
-    "extras/bench-server",
-    "extras/esp-wifishark",
-    "extras/ieee802154-sniffer",
-    "hil-test",
-]
+exclude = ["esp-metadata", "esp-riscv-rt", "examples", "hil-test"]
