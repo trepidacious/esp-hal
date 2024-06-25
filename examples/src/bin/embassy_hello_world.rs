@@ -41,7 +41,7 @@ async fn main(spawner: Spawner) {
     spawner.spawn(run()).ok();
 
     loop {
-        esp_println::println!("Bing!");
+        esp_println::println!("Bing!!!");
         Timer::after(Duration::from_millis(5_000)).await;
     }
 }

@@ -45,15 +45,18 @@ esp-backtrace = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f
   "exception-handler",
   "panic-handler",
   "println",
+  "esp32c3",
 ] }
 esp-hal = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f077722cfd9aa06502c15b938b9d58630", features = [
   "log",
+  "esp32c3",
 ] }
 esp-hal-embassy = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f077722cfd9aa06502c15b938b9d58630", optional = true }
 esp-hal-smartled = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f077722cfd9aa06502c15b938b9d58630", optional = true }
 esp-ieee802154 = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f077722cfd9aa06502c15b938b9d58630", optional = true }
 esp-println = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f077722cfd9aa06502c15b938b9d58630", features = [
   "log",
+  "esp32c3",
 ] }
 esp-storage = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f077722cfd9aa06502c15b938b9d58630", optional = true }
 esp-wifi = { git = "https://github.com/esp-rs/esp-hal.git", rev = "fd467c2f077722cfd9aa06502c15b938b9d58630", optional = true }
